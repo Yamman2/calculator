@@ -41,9 +41,9 @@ input:active[type=button] {
     box-shadow: inset 0px 0px 5px #c1c1c1;
 } */
 
-        /* ?////a////////////////////////////////////////////////////////////////////////////////////// */
+/* ?////a////////////////////////////////////////////////////////////////////////////////////// */
 
-        .calculator {
+/* .calculator {
             position: relative;
             top: 5em;
             padding: 5px;
@@ -69,11 +69,11 @@ input:active[type=button] {
 
         .display-box:hover {
             background-color: rgb(235, 220, 220);
-        }
+        } */
 
-        /* <!-- clear function all value clear --> */
+/* <!-- clear function all value clear --> */
 
-        #btn {
+/* #btn {
             background-color: #fb0066;
         }
 
@@ -137,4 +137,89 @@ input:active[type=button] {
             background-color: rgb(184, 70, 70);
 
 
-        }
+        } */
+
+body {
+    background-color: rgb(158, 248, 218);
+    
+}
+.main:hover{
+    
+    border: 1px black solid;
+    
+}
+.main1:hover{
+    border: 1px black solid;
+    
+}
+.lis{
+    text-transform: capitalize;
+   
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
+.add:hover {
+    color: rgb(89, 0, 255);
+    background-color: lightgray;
+    text-transform: uppercase;
+}
+
+.add {
+    position: relative;
+    left: 2px;
+    border-radius: 16px;
+    border: none;
+    background-color: blanchedalmond;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-family: cursive; 
+    
+}
+
+.delete:hover {
+    text-transform: uppercase;
+    color: rgb(89, 0, 255);
+    background-color: lightgray;
+}
+
+.delete {
+    position: relative;
+    left: 2px;
+    border-radius: 16px;
+    border: none;
+    background-color: blanchedalmond;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-family: cursive; 
+
+
+}
+
+#toodo-item {
+    width: 200px;
+    height: 30px;
+    outline: black;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase; 
+}
+
+#toodo-item:hover {
+    border: none;
+
+    text-decoration: underline;
+}

@@ -5,29 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculatorYT</title>
+    <title>Toodoo</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 
 
 </head>
 
 <body>
-        <!------------------------------------------------------------------------------------->
-    <table class="calculator">
+    <!------------------------------------------------------------------------------------->
+    <!-- <table class="calculator">
 
         <tr>
-            <td colspan="3"> <input class="display-box " type="text" name="" id="result"></td>
+            <td colspan="3"> <input class="display-box " type="text" name="" id="result"></td> -->
 
-            <!-- clear function all value clear -->
+    <!-- clear function all value clear -->
 
-            <td><input type="button" value="C" name="" onclick="clearvalue()" id="btn"></td>
+    <!-- <td><input type="button" value="C" name="" onclick="clearvalue()" id="btn"></td>
 
         </tr>
 
-        <tr>
-            <!-- display value clicked button -->
-
+        <tr> -->
+    <!-- display value clicked button -->
+    <!-- 
             <td> <input type="button" value="1" onclick="display('1')" name="" id=""> </td>
             <td> <input type="button" value="2" onclick="display('2')" name="" id=""> </td>
             <td> <input type="button" value="3" onclick="display('3')" name="" id=""></td>
@@ -51,10 +51,10 @@
 
         <tr>
             <td> <input type="button" value="." onclick="display('.')" /> </td>
-            <td> <input type="button" value="0" onclick="display('0')" /> </td>
+            <td> <input type="button" value="0" onclick="display('0')" /> </td> -->
 
-            <!-- calculate() function evaluates the mathematical expression -->
-
+    <!-- calculate() function evaluates the mathematical expression -->
+    <!-- 
             <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
             <td> <input type="button" value="+" onclick="display('+')" /> </td>
         </tr>
@@ -63,10 +63,45 @@
             <td class="link"><a href="https://www.youtube.com/channel/UCgeqRqX29MPsQyA5bm4-GlQ" class="a">YT</a></td>
             
         </tr>
-    </table>
+    </table> -->
+
+    <!-- <input type="text" name="" id="inp">
     
-    
-    <script src="app.js"></script>
+    <button onclick="createElem()">Create</button>
+     
+    <div id="main"></div> -->
+
+
+    <!-- ............................................................................................ -->
+  <div class="main">
+    <input type="text" placeholder="Enter todo" id="toodo-item">
+    <button onclick="addtodo()" class="add">add itme</button>
+    <button onclick="deleteAll()" class="delete">delete all</button>
+  </div>   
+  
+  <div class="main1">  
+<ul id="list">
+
+</ul>
+  </div>
+  
+  <style>
+    .btn:hover{
+        background-color: aqua;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        text-align: center;
+        font-size: medium;
+        font-family: cursive; 
+        border-radius: 16px;
+        cursor: pointer;
+        border: none;
+        text-transform: capitalize;
+        color: blue;
+    }
+  </style>
+
+ <script src="app.js"></script>
 </body>
 
 </html>
